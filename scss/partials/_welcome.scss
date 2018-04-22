@@ -1,0 +1,36 @@
+a {
+  height: 100vh;
+  width: 100vw;
+  border: none;
+}
+
+#welcome body {
+  background-color: white;
+  opacity: 1;
+}
+
+
+#startimg {
+  border: white 0px;
+   margin-right: 200px;
+   margin-left: 200px;
+   margin-top: 50px;
+   width: 600px;
+
+   @media (min-width: 300px) and (max-width: 700px) {
+     display: block;
+     position: relative;
+         width: 70%;
+         height: 70%;
+         top: 10rem;
+         left:9rem;
+   }
+   @media (min-width: 700px) and (max-width: 1025px){
+     display: block;
+     position: relative;
+         width: 60%;
+         height: 60%;
+         top: 20rem;
+         left:2rem;
+   }
+ }

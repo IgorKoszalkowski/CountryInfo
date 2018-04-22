@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en-EN">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Country Info</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta	name="viewport"	content="width=device-width,	initial-scale=1.0"/>
+</head>
+
+<body id="mainpage">
+  <div class="container">
+    <header>
+      <h1>Country Info</h1>
+    </header>
+
+    <main>
+    <div class="select">
+      <select id="countries" name="countries">
+        <option value="">Select Country</option>
+      </select>
+      </div>
+      <div id="img"></div>
+            <p id="output"></p>
+      <div id="map" class="container"></div>
+    </main>
+  </div>
+</body>
+
+<script src="./js/jquery-3.2.1.min.js"></script>
+<script src="./js/app.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCv3lF_iChtAmrCvbUv0bQHfNORjBrlBUM&language=en">
+</script>
+<script src="./js/gmaps.js"></script>
+</html>
